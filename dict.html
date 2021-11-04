@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="dict.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powerful Dictionary</title>
+</head>
+<body>
+    <h1>My Dictionary</h1>
+
+    <!-- The div for displaying different properties -->
+        <div class="foo">
+            <div id="div" class="btnul">
+                <input type="hidden" name="searchedMeaning" id = "searchedMeaning">
+            </div>
+        </div>
+    <!-- linebreak just for the sake of making it good -->
+            <br><br>
+
+        <!-- Container to display searchbox and result  -->
+                <div class="container" id="container">
+                    <label for="search">Word: </label>
+                    <input type="text" name="search" id = "searchbox">
+                    <button type="submit" id="submit">Search</button>
+                </div>
+                <h2 id = "result"></h2>
+
+</body>
+<script src="dict.js"></script>
+</html>

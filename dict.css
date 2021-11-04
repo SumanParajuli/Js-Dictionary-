@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    margin-left: 40%;
+}
+button:hover{
+    background-color: white;
+}
+body{
+    background-color: coral;
+    margin:0;
+    padding: 0;
+}
+.spacing{
+    padding: 10px;
+}
+.foo{
+    margin-left:33%;
+}
